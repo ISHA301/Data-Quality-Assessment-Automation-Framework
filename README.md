@@ -135,25 +135,6 @@ Input Data → Quality Assessment → Scorecard Generation → Automated Cleanin
 
 ---
 
-## Project Structure
-
-```
-Data-Quality-Assessment/
-│
-├── Data/
-│   └── dirty_customer_data.csv          # Source dataset
-│
-├── Notebooks/
-│   └── Data_Assessment.ipynb            # Main analysis notebook
-│
-├── Output/
-│   ├── clean_customer_data.csv          # Validated dataset
-│   
-└── README.md                             # This file
-```
-
----
-
 ## Key Learnings
 
 ### Technical Insights
