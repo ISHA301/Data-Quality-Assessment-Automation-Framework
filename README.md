@@ -1,53 +1,53 @@
-# Data Quality Assessment & Automation Framework
+# 📊 Data Quality Assessment & Automation Framework
 
-## Executive Summary
+## 🧠 Executive Summary
 
 Automated data quality assessment solution that reduces manual validation effort by 95% while improving data reliability from 97.46% to 99.11%. Built to address operational inefficiencies in data validation processes and ensure data readiness for analytics and AI/ML initiatives.
 
 ---
 
-## Business Problem
+## 🏢 Business Problem
 
 Organizations face critical data quality challenges that impact analytics effectiveness:
 
-**Manual Validation Inefficiency**
+### ⚙️ Manual Validation Inefficiency
 - Data validation performed manually in Excel taking 40+ hours per dataset
 - Process cannot scale with growing data volumes
 
-**Late Issue Discovery**
+### ⏱ Late Issue Discovery
 - Quality problems found after data enters production systems
 - Results in wasted marketing spend and project delays
 
-**No Quality Standards**
+### 📏 No Quality Standards
 - Inconsistent validation criteria across teams
 - Difficult to demonstrate data readiness for AI/ML projects
 
-### Business Impact
+### 💼 Business Impact
 - 200+ hours monthly spent on manual validation
 - Invalid contacts and duplicates reduce marketing effectiveness
 - Poor data quality delays analytics projects and causes failures
 
 ---
 
-## Solution Overview
+## 🧩 Solution Overview
 
 Built a two-component automated framework to assess and improve data quality systematically:
 
-### Component 1: Quality Assessment Engine
+### 🧪 Component 1: Quality Assessment Engine
 Automated analysis across four quality dimensions:
 - **Completeness:** Identifies missing values and calculates fill rates
 - **Uniqueness:** Detects duplicate records
 - **Consistency:** Validates format standardization across fields
 - **Accuracy:** Checks data validity and ranges
 
-### Component 2: Automated Remediation Pipeline
+### 🔁 Component 2: Automated Remediation Pipeline
 Applies business rules to clean data:
 - Fills missing values with context-appropriate defaults
 - Removes duplicate records
 - Standardizes formats (phone numbers, state codes, boolean fields)
 - Flags or removes invalid data points
 
-### Key Capabilities
+### ⭐ Key Capabilities
 - **Automated:** Runs without manual intervention
 - **Scalable:** Processes 10,000+ records in minutes
 - **Repeatable Methodology:** Systematic approach applicable to similar data structures
@@ -55,14 +55,13 @@ Applies business rules to clean data:
 
 ---
 
-## Technical Implementation
+## 🛠 Technical Implementation
 
-### Architecture
-```
-Input Data → Quality Assessment → Scorecard Generation → Automated Cleaning → Validated Output
-```
+### 🧱 Architecture
+# Input Data → Quality Assessment → Scorecard Generation → Automated Cleaning → Validated Output 
 
-### Technology Stack
+
+### 🧰 Technology Stack
 - **Language:** Python 3.x
 - **Data Processing:** Pandas, NumPy
 - **Visualization:** Matplotlib, Seaborn
@@ -71,14 +70,14 @@ Input Data → Quality Assessment → Scorecard Generation → Automated Cleanin
 
 ---
 
-## Results & Metrics
+## 📈 Results & Metrics
 
-### Dataset Profile
+### 📦 Dataset Profile
 - **Source:** E-commerce customer records
 - **Volume:** 10,234 records, 25 columns
 - **Domain:** Customer demographics, contact information, transaction history
 
-### Issues Identified
+### 🚨 Issues Identified
 
 | Issue Category | Count | Impact |
 |----------------|-------|--------|
@@ -87,7 +86,9 @@ Input Data → Quality Assessment → Scorecard Generation → Automated Cleanin
 | Format Inconsistencies | 10,234+ | Phone (5 formats), State (non-standard), Booleans (8 variations) |
 | Invalid Data | 66 | Out-of-range ages, malformed emails |
 
-### Quality Score Improvement
+---
+
+### 📊 Quality Score Improvement
 
 | Dimension | Before | After | Improvement |
 |-----------|--------|-------|-------------|
@@ -97,9 +98,11 @@ Input Data → Quality Assessment → Scorecard Generation → Automated Cleanin
 | Accuracy | 99.36% | 100.00% | +0.64 pp |
 | **Overall Quality** | **97.46%** | **99.11%** | **+1.65 pp** |
 
-*Note: Uniqueness score optimized by removing 32 duplicate records, improving overall data integrity
+\*Note: Uniqueness score optimized by removing 32 duplicate records, improving overall data integrity
 
-### Performance Metrics
+---
+
+### ⚡ Performance Metrics
 
 | Metric | Manual Process | Automated Solution | Improvement |
 |--------|---------------|-------------------|-------------|
@@ -109,9 +112,9 @@ Input Data → Quality Assessment → Scorecard Generation → Automated Cleanin
 
 ---
 
-## Business Impact
+## 💡 Business Impact
 
-### Quantified Benefits
+### 📌 Quantified Benefits
 
 **Operational Efficiency**
 - Reduced validation time of 40 hours
@@ -135,21 +138,28 @@ Input Data → Quality Assessment → Scorecard Generation → Automated Cleanin
 
 ---
 
-## Key Learnings
+## 📚 Key Learnings
 
-### Technical Insights
-1. **Pandas is powerful for < 1M records** - For larger datasets, consider Dask or PySpark
-2. **Automation requires robust error handling** - Edge cases must be anticipated
-3. **Standardization before analysis** - Consistent formats enable better insights
+### 🧠 Technical Insights
+1. **Pandas is powerful for < 1M records** – For larger datasets, consider Dask or PySpark  
+2. **Automation requires robust error handling** – Edge cases must be anticipated  
+3. **Standardization before analysis** – Consistent formats enable better insights  
 
-### Business Insights
-1. **Quantification drives action** - Specific metrics more compelling than qualitative statements
-2. **Prevention > Detection** - Finding issues before production saves time and cost
-3. **Reusability multiplies value** - Built once, applied to multiple datasets
+### 💼 Business Insights
+1. **Quantification drives action** – Specific metrics more compelling than qualitative statements  
+2. **Prevention > Detection** – Finding issues before production saves time and cost  
+3. **Reusability multiplies value** – Built once, applied to multiple datasets  
+
+---
+
+## 📓 Project Notebook
+
+🔗 **Full Implementation Notebook:**  
+https://github.com/ISHA301/Data-Quality-Assessment-Automation-Framework/blob/main/Data_Assessment.ipynb
 
 ---
 
-📧 ishasingh1018@gmail.com  
-💼 [LinkedIn](https://www.linkedin.com/in/ishasingh1018)
+## 👤 Author
 
----
+📧 **Email:** ishasingh1018@gmail.com  
+💼 **LinkedIn:** https://www.linkedin.com/in/ishasingh1018
